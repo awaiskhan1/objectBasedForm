@@ -12,7 +12,7 @@ function showElement(currentSet){
 		else{
 			 let li = document.createElement("li");
 			  textnode = document.createTextNode("Your are Enter the value in " + currentSet.elements[i].name + '= ' + 
-			  	currentSet.elements[i].value + "</b>.");
+			  	currentSet.elements[i].value + ".");
 			  li.appendChild(textnode);
 			  ul.appendChild(li);
 		}
